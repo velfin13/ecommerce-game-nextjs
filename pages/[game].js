@@ -21,7 +21,7 @@ const Game = () => {
 
   return (
     <BasicLayout className="game">
-      <Seo title={game.title} />
+      <Seo title={game?.title} />
       <HeaderGame game={game} setReload={setReload} />
       <TabsGame game={game} setReload={setReload} />
     </BasicLayout>
